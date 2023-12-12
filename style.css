@@ -1,0 +1,78 @@
+body{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: #807d75;
+}
+
+header h1{
+    color: whitesmoke;
+}
+
+main{
+display: flex;
+flex-direction: column;
+}
+
+.inputSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 6%;
+    background-color: #d4c294;
+    border-radius: 10px;
+    padding: 15px 0 15px 0;
+    border: 2px solid black;
+}
+
+.inputSection button{
+    padding: 0.5%;
+    border-radius: 10px;
+    background-color: orange;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.inputSection input{
+    border-radius: 10px;
+    background-color: orange;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.displaySection{
+    margin: 2% 0 2% 0;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #d4c294;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    gap: 10px;
+}
+
+li{
+    list-style-type: none;
+    border-bottom: 1px solid black;
+    color: black;
+    width: 25%;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px
+}
+
+.orangeBackground{
+    background-color: orange;
+}
+
+.blueBackground{
+    background-color: whitesmoke;
+}
